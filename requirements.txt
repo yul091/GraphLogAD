@@ -1,0 +1,10 @@
+pyvis
+datasets==2.7.1
+transformers==4.24.0
+# scikit-learning==0.24.2
+sentence_transformers==2.2.2
+pytorch-lightning
+matplotlib
+tqdm==4.64.1
+sacrebleu
+line_profiler
