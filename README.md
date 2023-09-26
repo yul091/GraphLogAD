@@ -1,5 +1,5 @@
 # GraphLogAD
-Codebase for the ICKG 2023 paper: "GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection".
+Codebase for the ICKG 2023 paper: [GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection](https://arxiv.org/pdf/2309.05953.pdf).
 
 
 ### Quick Start
@@ -57,7 +57,7 @@ python main.py \
     --checkpoint_dir ${CKPT} \
     --train_batch_size ${TRAIN_BATCH_SIZE} \
     --eval_batch_size ${EVAL_BATCH_SIZE} \
-    --model_type ${MODEL_TYPE} \
+    --model_type dynamic \
     --pretrained_model_path ${MODEL_PATH} \
     --lambda_seq ${LAMBDA} \
     --classification ${CLASSIFICATION} \
