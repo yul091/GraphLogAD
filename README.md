@@ -3,13 +3,13 @@ Codebase for the ICKG 2023 paper: "GLAD: Content-aware Dynamic Graphs For Log An
 
 
 ### Quick Start
-- python 3.10.8
-- [pytorch 1.13.1](https://pytorch.org/get-started/locally/)
-- install [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
+- Python 3.10.8
+- [PyTorch 1.13.1](https://pytorch.org/get-started/locally/)
+- Install [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 ```
 conda install pyg -c pyg
 ```
-- install dependencies
+- Install dependencies
 ```
 pip install -r requirements.txt
 ```
