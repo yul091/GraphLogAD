@@ -2,10 +2,10 @@
 Codebase for the ICKG 2023 paper: "GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection".
 
 
-## Quick Start
+### Quick Start
 - python 3.10.8
 - [pytorch 1.13.1](https://pytorch.org/get-started/locally/)
-- install pytorch geometric
+- install [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 ```
 conda install pyg -c pyg
 ```
@@ -14,7 +14,7 @@ conda install pyg -c pyg
 pip install -r requirements.txt
 ```
 
-## Extract named entities from log messages
+### Extract named entities from log messages
 ```
 python NER.py \
     --gen_data ${DATA} \
@@ -37,7 +37,7 @@ python NER.py \
     --overwrite_cache
 ```
 
-## Generate datasets
+### Generate datasets
 ```
 python graph_generation.py \
     --root ${ROOT} \
@@ -50,7 +50,7 @@ python graph_generation.py \
     --event_template 
 ```
 
-## Train graph anomaly detection model
+### Train graph anomaly detection model
 ```
 python main.py \
     --root ${ROOT} \
@@ -73,7 +73,7 @@ python main.py \
 ```
 
 
-## Citation
+### Citation
 If you find this repository useful in your research, please cite our paper:
 ```
 @article{li2023glad,
