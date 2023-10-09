@@ -1,5 +1,5 @@
 # GraphLogAD
-Codebase for the ICKG 2023 paper: [GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection](https://arxiv.org/pdf/2309.05953.pdf).
+Codebase for the ICKG 2023 paper: "GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection" ([PDF](https://arxiv.org/pdf/2309.05953.pdf)).
 
 
 ### Quick Start
