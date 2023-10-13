@@ -6,6 +6,11 @@ Codebase for the ICKG 2023 paper: "GLAD: Content-aware Dynamic Graphs For Log An
   <img src="figure/framework_brief.png" width="50%" height="50%">
 </p>
 
+- Few-shot log field extraction
+<p align="center">
+  <img src="figure/field_extraction.png" width="70%" height="80%">
+</p>
+
 - Graph-based edge anomaly detection
 <p align="center">
   <img src="figure/anomaly_detection.png" width="80%" height="80%">
@@ -85,7 +90,7 @@ python main.py \
 
 ### Citation
 If you find this repository useful in your research, please cite our paper:
-```
+```bibtex
 @article{li2023glad,
   title={GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection},
   author={Li, Yufei and Liu, Yanchi and Wang, Haoyu and Chen, Zhengzhang and Cheng, Wei and Chen, Yuncong and Yu, Wenchao and Chen, Haifeng and Liu, Cong},
