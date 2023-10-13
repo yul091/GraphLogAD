@@ -1,6 +1,9 @@
 # GraphLogAD
 Codebase for the ICKG 2023 paper: "GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection" ([PDF](https://arxiv.org/pdf/2309.05953.pdf)).
 
+<p align="center">
+  <img src="figure/framework_brief.png" width="50%" height="50%">
+</p>
 
 ### Quick Start
 - Python 3.10.8
