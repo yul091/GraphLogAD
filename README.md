@@ -8,7 +8,7 @@ Codebase for the ICKG 2023 paper: "GLAD: Content-aware Dynamic Graphs For Log An
 
 - Few-shot log field extraction
 <p align="center">
-  <img src="figure/field_extraction.png" width="70%" height="80%">
+  <img src="figure/field_extraction.png" width="60%" height="80%">
 </p>
 
 - Graph-based edge anomaly detection
