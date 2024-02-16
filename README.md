@@ -91,11 +91,13 @@ python main.py \
 ### Citation
 If you find this repository useful in your research, please cite our paper:
 ```bibtex
-@article{li2023glad,
-  title={GLAD: Content-aware Dynamic Graphs For Log Anomaly Detection},
+@inproceedings{li2023glad,
+  title={Glad: Content-aware dynamic graphs for log anomaly detection},
   author={Li, Yufei and Liu, Yanchi and Wang, Haoyu and Chen, Zhengzhang and Cheng, Wei and Chen, Yuncong and Yu, Wenchao and Chen, Haifeng and Liu, Cong},
-  journal={arXiv preprint arXiv:2309.05953},
-  year={2023}
+  booktitle={2023 IEEE International Conference on Knowledge Graph (ICKG)},
+  pages={9--18},
+  year={2023},
+  organization={IEEE}
 }
 ```
 
